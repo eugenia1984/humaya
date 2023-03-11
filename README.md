@@ -1,2 +1,7 @@
-# humaya
-La segunda práctica del curso de React de Codo a Codo
+# :star:Humaya:star:
+
+---
+
+Esta es la segunda práctica del curso de **React** junto a **Codo a Codo**.
+
+---

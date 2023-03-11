@@ -1,0 +1,143 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* Colores personalizados */
+:root {
+  --bg-black: #181513;
+  --bg-black-light: #292928;
+  --bg-gray-dark: #313034;
+  --bg-gray: #645f5a;
+  --bg-gray-light: #575354;
+  --brown-dark: #51311c;
+  --brown-light: #8f6342;
+  --brown-lighter: #cba477;
+  --brown-gray-light: #a69a93;
+  --brown-red: #b84a05;
+  --white: #fff;
+}
+
+/* generales */
+.txt-white {
+  color: var(--white);
+}
+
+.txt-light-brown {
+  color: var(--brown-lighter);
+}
+
+.txt-dark-brown {
+  color: var(--brown-dark);
+}
+/* Navbar */
+.navbar-nav {
+  align-items: center;
+}
+
+.navbar-collapse {
+  justify-content: space-evenly;
+}
+
+/* Portada*/
+#portada {
+  background-image: url("./assets/imagenes/central/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 30vh;
+}
+
+.portada-container {
+  color: var(--white);
+}
+
+@media only screen and (max-width: 575px) {
+  #portada p {
+    display: none;
+  }
+}
+
+#portada .row {
+  justify-content: center;
+}
+
+@media only screen and (min-width: 992px) {
+  #portada .row {
+    justify-content: flex-end;
+  }
+}
+
+.btn-cta {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 208px;
+  margin: 0 auto;
+}
+
+/* Calidad */
+#calidad {
+  background-color: var(--bg-gray-dark);
+}
+
+.calidad-headline {
+  color: var(--white);
+}
+
+.calidad-razones p {
+  color: var(--brown-lighter);
+  text-align: center;
+}
+
+/* Productos */
+#productos {
+  background-color: var(--bg-gray);
+}
+
+#productos h2 {
+  text-align: center;
+  color: var(--white);
+}
+
+.product-1,
+.product-2,
+.product-3 {
+  background-color: var(--bg-black);
+}
+
+.product-4 {
+  background-color: var(--brown-lighter);
+}
+
+#productos h3 {
+  color: var(--brown-light);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.5rem 0;
+}
+
+/* Contacto */
+#contacto {
+  background-color: var(--bg-gray-dark);
+}
+
+.contacto-form {
+  background-color: var(--white);
+}
+
+/* Footer */
+#footer {
+  background-color: var(--bg-black);
+  padding: 1.5rem 0;
+}
+
+#footer a {
+  text-decoration: none;
+  color: var(--white);
+}
