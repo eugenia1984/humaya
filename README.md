@@ -22,7 +22,7 @@ La profesora nos brindo [este PDF](https://github.com/eugenia1984/humaya/blob/ma
 
 -<img src="https://img.icons8.com/color/30/null/javascript--v1.png"/>**JavaScript** 
 
--<img src="https://img.icons8.com/color/430/null/bootstrap.png"/>**Bootstrap**.
+-<img src="https://img.icons8.com/color/30/null/bootstrap.png"/>**Bootstrap**.
 
 
 
