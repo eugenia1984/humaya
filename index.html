@@ -66,12 +66,12 @@
             <div class="container">
                 <div class="row calidad-headline text-center">
                     <div class="col">
-                        <h2>La mejor calidad para vos</h2>
+                        <h2 class="py-3">La mejor calidad para vos</h2>
                     </div>
                 </div>
                 <div class="row calidad-razones">
                     <div class="col-sm-12 col-md-4">
-                        <img>
+                        <img src="./assets/imagenes/calidad/organic.png" class="organic"/>
                         <p class="text-uppercase">100% orgánico</p>
                     </div>
                     <div class="col-sm-12 col-md-4">
@@ -97,7 +97,18 @@
             <div class="container">
                 <div class="row product-1">   
                     <div class="col-sm-12 col-md-6">
-                        <!-- Carousel de imagenes del producto solo cambia la imagen automarica, no tiene flechas-->
+                        <div class="col-sm-12 col-md-6">
+                            <div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./assets/imagenes/productos/tradicional/dulce-de-leche-tradicional.png" class="d-block w-100" alt="alfajor de choconutt">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./assets/imagenes/productos/tradicional/dulce-de-leche-tradicional.png" class="d-block w-100" alt="alfajor de choconutt">
+                                  </div>
+                                </div>
+                            </div>
+                        </div>  
                     </div>  
                     <div class="col-sm-12 col-md-6 py-3">
                         <h3>Dulce de leche tradicional</h3>
@@ -107,19 +118,28 @@
                     </div>  
                 </div> 
                 <div class="row product-2">   
-                    <div class="col-sm-12 col-md-6">
-                        <!-- Carousel de imagenes del producto solo cambia la imagen automarica, no tiene flechas-->
-                    </div>  
                     <div class="col-sm-12 col-md-6  py-3">
                         <h3>Dulce de leche sin azúcar</h3>
                         <p class="txt-white">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzada naturalmente con stevia.</p>
                         <p class="txt-light-brown">Presentación en frasco de vidrio de 500gr y 280gr.</p>
                         <a class="btn btn-outline-light">+info</a>
-                    </div>  
+                    </div> 
+                    <div class="col-sm-12 col-md-6">
+                        <!-- Carousel de imagenes del producto solo cambia la imagen automarica, no tiene flechas-->
+                    </div>   
                 </div>
                 <div class="row product-3">   
                     <div class="col-sm-12 col-md-6">
-                        <!-- Carousel de imagenes del producto solo cambia la imagen automarica, no tiene flechas-->
+                        <div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/imagenes/productos/choconutt/dulce-choconutt.png" class="d-block w-100" alt="alfajor de choconutt">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/imagenes/productos/choconutt/dulce-choconutt.png" class="d-block w-100" alt="alfajor de choconutt">
+                              </div>
+                            </div>
+                        </div>
                     </div>  
                     <div class="col-sm-12 col-md-6  py-3">
                         <h3>Dulce choconutt</h3>
@@ -130,7 +150,16 @@
                 </div>
                 <div class="row product-4">   
                     <div class="col-sm-12 col-md-6">
-                        <!-- Carousel de imagenes del producto solo cambia la imagen automarica, no tiene flechas-->
+                        <div id="carouselSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/imagenes/productos/maicena/alfajor-maicena.jpg" class="d-block w-100" alt="alfajor de choconutt">
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/imagenes/productos/maicena/alfajor-maicena-2.jpg" class="d-block w-100" alt="alfajor de choconutt">
+                              </div>
+                            </div>
+                        </div>
                     </div>  
                     <div class="col-sm-12 col-md-6  py-3">
                         <h3>Alfajores de maicena</h3>
@@ -160,34 +189,33 @@
             </div>
             <div class="container contacto-form">
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-6">
-                        <img>
+                    <div class="col-sm-12 col-md-6 col-lg-6 contacto-img">
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-5">
-                        <p class="pt-5">Déjanos tu consulta y nuestro persona se pondrá en contacto a la brevedad.</p>
+                        <p class="pt-5 txt-dark-brown">Déjanos tu consulta y nuestro persona se pondrá en contacto a la brevedad.</p>
                         <form>
                             <div class="mb-3">
-                                <label for="nombre" class="form-label">Nombre y apellido</label>
+                                <label for="nombre" class="form-label txt-dark-brown">Nombre y apellido</label>
                                 <input type="text" class="form-control" name="nombre" >  
                             </div>
                             <div class="mb-3">
-                                <label for="correo" class="form-label">Email</label>
+                                <label for="correo" class="form-label txt-dark-brown">Email</label>
                                 <input type="email" class="form-control" name="correo" >  
                             </div>
                             <div class="mb-3">
-                                <label for="consultas" class="form-label">Consultas</label>
+                                <label for="consultas" class="form-label txt-dark-brown">Consultas</label>
                                 <textarea class="form-control" id="consultas" rows="3"></textarea>
                             </div>
                             <div class="form-check mb-3">
                                 <input class="form-check-input" type="checkbox" value="" id="newsletter">
-                                <label class="form-check-label" for="newsletter">Newsletter</label>
+                                <label class="form-check-label txt-dark-brown" for="newsletter">Newsletter</label>
                             </div>
                             <div class="row pb-5">
                                 <div class="col-6">
-                                    <button class="btn btn-primary" type="submit">Enviar</button>
+                                    <button class="btn btn-dark" type="submit">Enviar</button>
                                 </div>
                                 <div class="col-6">
-                                    <button class="btn btn-primary" type="reset">Borrar</button>
+                                    <button class="btn btn-outline-dark" type="reset">Borrar</button>
                                 </div>
                             </div>
                         </form>
@@ -202,35 +230,36 @@
                 <section class="col-2 logo">
                     <img src="./assets//imagenes//logo/logo-humaya-100x100.png">
                 </section>
-                <section class="col-sm-12 col-md-3 menu">
-                    <h2 class="txt-dark-brown">Menú</h2>
+                <section class="col-sm-12 col-md-2 menu">
+                    <h2 class="txt-light-brown py-3 text-uppercase fs-3">Menú</h2>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#productos">Productos</a></li>
-                        <li><a href="">Locales</a></li>
+                        <li><a href="#">Locales</a></li>
                         <li><a href="#contacto">Contacto</a></li>
                     </ul>
                 </section>
                 <section class="col-sm-12 col-md-3 navegacion">
-                    <h2 class="txt-dark-brown">Navegación</h2>
+                    <h2 class="txt-light-brown py-3 text-uppercase fs-3">Navegación</h2>
                     <ul>
-                        <li><a href="">Preguntas frecuentes</a></li>
-                        <li><a href="">Distribuidores</a></li>
-                        <li><a href="">Prensa</a></li>
-                        <li><a href="">Recetas exclusivas</a></li>
+                        <li><a href="#">Preguntas frecuentes</a></li>
+                        <li><a href="#">Distribuidores</a></li>
+                        <li><a href="#">Prensa</a></li>
+                        <li><a href="#">Recetas exclusivas</a></li>
                     </ul>
                 </section>
                 <section class="col-sm-12 col-md-2 redes">
-                    <h2 class="txt-dark-brown">Redes</h2>
+                    <h2 class="txt-light-brown py-3 text-uppercase text-center fs-3">Redes</h2>
                         <ul>
                             <li><a href="#"><i class="bi bi-tiktok txt-white" role="img" aria-label="icono de TikTok"></i></a></li>
                             <li><a href="#"><i class="bi bi-facebook txt-white" role="img" aria-label="icono de Facebook"></i></a></li>
                             <li><a href="#"><i class="bi bi-instagram txt-white" role="img" aria-label="icono de Instagram"></i></a></li>
                         </ul>
                 </section>
-                <section class="col-sm-12 col-md-2 ubicacion">
-                    <h2 class="txt-dark-brown">Ubicación</h2>
+                <section class="col-sm-12 col-md-3 ubicacion">
+                    <h2 class="txt-light-brown py-3 text-uppercase fs-3">Ubicación</h2>
                     <p class="txt-white">Monte de Oca 2356, CABA</p>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0392300647873!2d-58.37271534894361!3d-34.65371218035057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334aab78be889%3A0xe808082ff7311cac!2sAv.%20Montes%20de%20Oca%202356%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1678646490312!5m2!1ses-419!2sar" width="150" height="112" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </section>
             </section>
         </section>

@@ -93,6 +93,18 @@
 .calidad-razones p {
   color: var(--brown-lighter);
   text-align: center;
+  padding: 1rem 0;
+}
+
+.organic {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 /* Productos */
@@ -131,6 +143,12 @@
   background-color: var(--white);
 }
 
+.contacto-img {
+  background-image: url("./assets/imagenes/contacto/delicious-alfajores-arrangement.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-gray-dark);
+}
 /* Footer */
 #footer {
   background-color: var(--bg-black);
@@ -140,4 +158,29 @@
 #footer a {
   text-decoration: none;
   color: var(--white);
+}
+
+#footer ul {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+#footer .redes li {
+  text-align: center;
+}
+
+#footer .logo img {
+  width: 100px;
+  height: 100px;
+}
+
+@media only screen and (max-width: 575px) {
+  #footer .row {
+    justify-content: center;
+    text-align: center;
+  }
+  #footer .navegacion,
+  #footer .ubicacion {
+    display: none;
+  }
 }
