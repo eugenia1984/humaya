@@ -10,6 +10,7 @@
         if (!form.checkValidity()) {
           event.preventDefault();
 
+          // TODO: solo debe enviarse cuando este validado
           fetch("https://formsubmit.co/ajax/costamariaeugenia1@gmail.com", {
             method: "POST",
             body: new FormData(event.target),

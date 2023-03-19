@@ -140,6 +140,44 @@
   padding: 1.5rem 0;
 }
 
+.product-1-img {
+  background-image: url("./assets/imagenes/productos/tradicional/dulce-de-leche-tradicional.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-gray-dark);
+}
+
+.product-2-img {
+  background-image: url("./assets/imagenes/productos/sin-azucar/sin-azucar.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-gray-dark);
+}
+
+.product-3-img {
+  background-image: url("./assets/imagenes/productos/choconutt/dulce-choconutt.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-gray-dark);
+}
+
+.product-4-img {
+  background-image: url("./assets/imagenes/productos/maicena/alfajor-maicena.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--bg-gray-dark);
+}
+
+/* Quienes somos */
+#quienes-somos {
+  background-color: var(--bg-gray-dark);
+}
+
+/* Clientes */
+#clientes {
+  background-color: var(--bg-gray-light);
+}
+
 /* Contacto */
 #contacto {
   background-color: var(--bg-gray-dark);
