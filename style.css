@@ -149,6 +149,21 @@
   background-size: cover;
   background-color: var(--bg-gray-dark);
 }
+
+/* Recetas */
+#recetas {
+  background-color: var(--bg-black-light);
+}
+
+#recetas .carousel-caption {
+  background-color: var(--brown-lighter);
+  padding: 1.25rem 0.75rem;
+}
+
+#recetas .modal-body h2  {
+  color: var(--brown-light);
+}
+
 /* Footer */
 #footer {
   background-color: var(--bg-black);

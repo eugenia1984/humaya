@@ -35,6 +35,9 @@
                   <li class="nav-item">
                     <a class="nav-link active" href="#contacto">Contacto</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#recetas">Recetas</a>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -222,7 +225,85 @@
                     </div>
                 </div> 
             </div>
-        </section>        
+        </section>  
+        <!-- Seccion Recetas -->   
+        <section id="recetas" class="pb-5">
+            <section class="container">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-center txt-white py-5">Recetas</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <!-- Carousel de recetas-->
+                        <div id="carouselCaptions" class="carousel slide">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <img src="./assets/imagenes/recetas/conitos.png" class="d-block w-100" alt="cono de dulce de leche">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-uppercase">Conitos</h5>
+                                  <p>Una deliciosa opción para acompañar las meriendas, ese antojo de media noche o compartir con amigos.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/imagenes/recetas/pepas.png" class="d-block w-100" alt="pepa de dulce de leche">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-uppercase">Pepas</h5>
+                                  <p>Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para el mate de la hora del té.</p>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="./assets/imagenes/recetas/torta-nutt.png" class="d-block w-100" alt="torta nutt">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <h5 class="text-uppercase">Torta Nutt</h5>
+                                  <p>La torta de tres capas más sabrosa del mundo, combia una base de vainilla, dulce de leche y cubierta de choconut.</p>
+                                  <!-- Button trigger modal -->
+                                  <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                    Preparacion
+                                  </button>
+                                  <!-- Modal -->
+                                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                        <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Torta Nutt</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                            <h2>Torta Nutt</h2>
+                                            <ol>
+                                                <li></li>
+                                            </ol>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-black" data-bs-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Carousel-->
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselCaptions" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                </div>
+            </section>
+        </section>   
     </main>
     <footer id="footer">
         <section class="container">
@@ -237,6 +318,7 @@
                         <li><a href="#productos">Productos</a></li>
                         <li><a href="#">Locales</a></li>
                         <li><a href="#contacto">Contacto</a></li>
+                        <li><a href="#recetas">Recetas</a></li>
                     </ul>
                 </section>
                 <section class="col-sm-12 col-md-3 navegacion">
@@ -244,8 +326,6 @@
                     <ul>
                         <li><a href="#">Preguntas frecuentes</a></li>
                         <li><a href="#">Distribuidores</a></li>
-                        <li><a href="#">Prensa</a></li>
-                        <li><a href="#">Recetas exclusivas</a></li>
                     </ul>
                 </section>
                 <section class="col-sm-12 col-md-2 redes">
