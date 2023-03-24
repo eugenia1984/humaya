@@ -9,8 +9,10 @@
       (event) => {
         if (!form.checkValidity()) {
           event.preventDefault();
+          event.stopPropagation();
+        }
 
-          // TODO: solo debe enviarse cuando este validado
+        if (form.checkValidity()) {
           fetch("https://formsubmit.co/ajax/costamariaeugenia1@gmail.com", {
             method: "POST",
             body: new FormData(event.target),
@@ -21,12 +23,7 @@
             })
             .catch((err) => {
               console.log(err);
-            })
-            .finally(() => {
-              console.log("Enviado");
             });
-
-          event.stopPropagation();
         }
 
         form.classList.add("was-validated");
@@ -35,4 +32,3 @@
     );
   });
 })();
-
