@@ -138,6 +138,13 @@
   background-color: var(--bg-black);
 }
 
+@media only screen and (max-width: 767px) {
+  .product-1,
+  .product-2,
+  .product-3 {
+    border-bottom: 2px solid var(--brown-light);
+  }
+}
 .product-4 {
   background-color: var(--brown-lighter);
 }
@@ -184,6 +191,11 @@
   background-color: var(--bg-gray-dark);
 }
 
+@media only screen and (max-width: 767px) {
+  #quienes-somos {
+    border-bottom: 2px solid var(--brown-light);
+  }
+}
 /*****************************************
                 Clientes 
 *****************************************/
@@ -259,6 +271,29 @@
 }
 
 /* Resetas Carousel*/
+.conitos {
+  background-image: url("./assets/imagenes/recetas/conitos.png");
+  background-color: #ccc;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+.pepas {
+  background-image: url("./assets/imagenes/recetas/pepas.png");
+  background-color: #ccc;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 767px) {
+  .conitos,
+  .pepas {
+    height: 300px;
+  }
+}
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   background-color: var(--brown-red);
@@ -303,6 +338,13 @@ i.bi.bi-chevron-double-up {
   padding: 1.5rem 0;
 }
 
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
 #footer a {
   text-decoration: none;
   color: var(--white);
