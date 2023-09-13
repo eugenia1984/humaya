@@ -1,4 +1,4 @@
-# :star:Humaya:star:
+# <img width="48" height="48" src="https://img.icons8.com/color/48/tv.png" alt="tv"/>  Humaya
 
 ---
 
@@ -8,7 +8,7 @@ La profesora nos brindo [este PDF](https://github.com/eugenia1984/humaya/blob/ma
 
 ---
 
-:tv: -> [Haciendo click en este link la pueden ver online](https://eugenia1984.github.io/humaya/)
+<img width="48" height="48" src="https://img.icons8.com/color/48/tv.png" alt="tv"/> -> [Haciendo click en este link la pueden ver online es eugenia1984.github.io/humaya/](https://eugenia1984.github.io/humaya/)
 
 ---
 
